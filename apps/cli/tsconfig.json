@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "./",
     "target": "es5",
     "module": "commonjs",
     "lib": ["es2020", "dom"],
@@ -14,5 +14,6 @@
     "sourceMap": true
   },
   "include": ["src/**/*"],
-  "exclude": ["tsconfig.json", "node_modules", "dist"]
+  "exclude": [
+    "tsconfig.json", "node_modules", "dist"]
 }

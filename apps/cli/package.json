@@ -1,0 +1,21 @@
+{
+  "name": "@monarchjs/cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node_modules/.bin/tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/yargs": "^17.0.22",
+    "prettier": "^2.8.4",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "yargs": "^17.7.0",
+    "@monarchjs/builder": "*"
+  }
+}
